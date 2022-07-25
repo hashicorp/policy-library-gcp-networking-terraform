@@ -7,7 +7,7 @@ allSubnetworkResources = filter tfplan.resource_changes as _, resource_changes {
 			resource_changes.change.actions is ["update"])
 }
 
-print("CIS 3.8: Ensure Private Google Access is enabled for all subnetwork in VPC Network")
+print("Ensure Private Google Access is enabled for all subnetwork in VPC Network")
 
 deny_undefined_private_ip_google_access = rule {
 	all allSubnetworkResources as _, subnetwork {

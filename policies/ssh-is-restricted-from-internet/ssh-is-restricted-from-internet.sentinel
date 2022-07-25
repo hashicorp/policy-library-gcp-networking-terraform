@@ -13,7 +13,7 @@ allFirewallResources = filter tfplan.resource_changes as _, resource_changes {
 			resource_changes.change.actions is ["update"])
 }
 
-print("CIS 3.6: Ensure that SSH access is restricted from the internet")
+print("Ensure that SSH access is restricted from the internet")
 
 deny_public_ssh_access = rule {
 	all allFirewallResources as _, firewall {

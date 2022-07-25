@@ -7,7 +7,7 @@ allProjectResources = filter tfplan.resource_changes as _, resource_changes {
 			resource_changes.change.actions is ["update"])
 }
 
-print("CIS 3.1: Ensure the default network does not exist in a project")
+print("Ensure the default network does not exist in a project")
 
 deny_default_network_creation_in_project = rule {
 	all allProjectResources as _, project {
