@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 policy "dnssec-is-enabled-for-cloud-dns" {
   source = "./policies/dnssec-is-enabled-for-cloud-dns/dnssec-is-enabled-for-cloud-dns.sentinel"
 }
