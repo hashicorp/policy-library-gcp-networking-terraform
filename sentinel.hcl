@@ -1,4 +1,4 @@
-# Copyright (c) HashiCorp, Inc.
+# Copyright IBM Corp. 2022, 2025
 # SPDX-License-Identifier: MPL-2.0
 
 policy "dnssec-is-enabled-for-cloud-dns" {
