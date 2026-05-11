@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2022, 2026
+
 resource_changes = {
 	"google_compute_subnetwork.this": {
 		"address": "google_compute_subnetwork.this",
